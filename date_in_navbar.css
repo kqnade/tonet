@@ -1,0 +1,11 @@
+.navbar .row .project-home::after {
+	display: block;
+	flex-shrink: 0;
+	height: 36px;
+	aspect-ratio: 4 / 3;
+	margin-left: 10px;
+	content: "";
+	background-image: url("https://daiiz-apps.appspot.com/today/jp.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
