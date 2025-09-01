@@ -1,0 +1,14 @@
+.brand-icon {
+  --logo-url: url("/api/pages/tonet/brand-icon/icon");
+  
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  background-image: var(--logo-url);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 4px solid transparent;
+  
+  svg { display: none; }
+}
