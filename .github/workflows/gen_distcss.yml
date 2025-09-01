@@ -12,6 +12,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
       # 1. リポジトリのコードをチェックアウト
       - name: Checkout repository
